@@ -1,11 +1,9 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Book from "./ui/Book.jsx";
 import { books } from "../data.js";
 
 const Featured = () => {
   console.log(books);
-  console.log();
   return (
     <section id="features">
       <div className="container">
